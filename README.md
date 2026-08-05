@@ -11,6 +11,10 @@ This plugin connects Claude to **Maindex Smart** — a streamlined knowledge gra
 - **update** — revise an existing memory
 - **forget** — remove a memory
 
+## Teams Workspaces
+
+Team workspaces let multiple members share a scoped memory graph within your account. Smart tools support team context on keep, recall, and update via `team` and `collection` parameters.
+
 ## Installation
 
 Install from the Claude Plugin Marketplace, or add the `.mcp.json` configuration to your Claude project.
@@ -23,7 +27,7 @@ On first use, you'll be redirected to [maindex.io](https://maindex.io) to sign i
 
 If you need direct access to the full Maindex API — typed associations, collections, bulk operations, graph traversal, and MCP resources — use the **Expert** plugin:
 
-- [claude-expert-plugin](https://github.com/maindexapp/claude-expert-plugin) — 14 tools + 5 resources
+- [claude-expert-plugin](https://github.com/maindexapp/claude-expert-plugin) — 15 tools + 5 resources
 
 ## Learn More
 
